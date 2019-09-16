@@ -8,13 +8,14 @@
 
     <EditText
         android:id="@+id/logEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="326dp"
+        android:layout_height="52dp"
         android:layout_marginStart="75dp"
         android:layout_marginLeft="75dp"
         android:layout_marginEnd="75dp"
         android:layout_marginRight="75dp"
         android:ems="15"
+        android:background="@drawable/edit_text"
         android:hint="Email"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,10 +25,11 @@
 
     <EditText
         android:id="@+id/logPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="326dp"
+        android:layout_height="52dp"
         android:layout_marginStart="85dp"
         android:layout_marginLeft="85dp"
+        android:background="@drawable/edit_text"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="85dp"
         android:layout_marginRight="85dp"

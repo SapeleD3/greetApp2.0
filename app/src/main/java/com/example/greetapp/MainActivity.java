@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                     emailId.setError("Please enter email id");
                     emailId.requestFocus();
                 } else if (pwd.isEmpty()){
-                    password.setError("Please Enter yout password");
+                    password.setError("Please Enter your password");
                     password.requestFocus();
                 } else if (email.isEmpty() && pwd.isEmpty()){
                     Toast.makeText(MainActivity.this, "Fields are Empty!", Toast.LENGTH_SHORT);
