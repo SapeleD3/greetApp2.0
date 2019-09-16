@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GreetApp</string>
+    <string name="title_activity_rounded_border">rounded_border</string>
 </resources>
