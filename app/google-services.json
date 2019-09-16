@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "85703597516",
+    "firebase_url": "https://greetapp-ed731.firebaseio.com",
+    "project_id": "greetapp-ed731",
+    "storage_bucket": "greetapp-ed731.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85703597516:android:b1913f88016734165d9169",
+        "android_client_info": {
+          "package_name": "com.example.greetapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85703597516-7v1c0e7610csbcqdqgi83n0cor3rm8lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNuOdSvZ_ENB7JkhVsPAjJAPCOJfQETZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85703597516-7v1c0e7610csbcqdqgi83n0cor3rm8lp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
