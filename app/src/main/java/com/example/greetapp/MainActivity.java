@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
     TextView tvSignin;
     FirebaseAuth mFirebaseAuth;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
