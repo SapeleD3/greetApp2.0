@@ -10,7 +10,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome -Name- to your Home"
+        android:text="Welcome to your Home"
         android:textSize="18sp"
         android:gravity="center"
         android:textStyle="bold"
@@ -20,10 +20,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/useremail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="You are Logged with Email: -email@email.com"
+        android:text=""
         android:textSize="18sp"
         android:gravity="center"
         android:textStyle="bold"
@@ -36,14 +36,25 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="216dp"
         android:ems="10"
         android:text="Sign Out"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/useremail"
         app:layout_constraintVertical_bias="0.13" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="146dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_background" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
